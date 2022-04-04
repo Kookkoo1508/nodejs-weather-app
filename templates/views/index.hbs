@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/style.css">  <!-- we can put in as relative path = './css/style.css' -->
+                                <!-- Or absolutly path = '/css/style.css' as the public folder is the root path -->
+    </head>                                             
+    <body>
+        <div>
+            {{>header}}
+            <p id="p1">Use this site to get your weather!</p>
+            <form action="">
+                <input type="text" placeholder="Enter location">
+                <button>Search</button>
+            </form>
+        </div>        
+        
+
+        {{>footer}}
+        <script src="/js/app.js"></script>   
+    </body>
+</html>
